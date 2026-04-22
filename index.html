@@ -30,7 +30,7 @@
               <a href="#membership" class="nav__link">Seja um membro</a>
             </li>
             <li>
-              <a href="#contacts" class="nav__link">Contatos</a>
+              <a href="#footer" class="nav__link">Contatos</a>
             </li>
           </ul>
         </nav>
@@ -268,35 +268,52 @@
           </ul>
         </section>
       </main>
-      <footer class="footer">
-        <div class="footer__columns" id="colummns">
-          <img src="./images/logo.svg" alt="Logo da Biblioteca" />
-
-          <div class="footer_column_content_hours">
-            <h3 class="footer_column_heading">Horário de Funcionamento</h3>
-            <p class="footer_list_item">Segunda a Sexta: 9h - 18h</p>
-            <p class="footer_list_item">Sábado: 10h - 16h</p>
-            <p class="footer_list_item">Domingo: Fechado</p>
+      <footer class="footer" id="footer">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img
+              class="footer__logo"
+              src="./images/logo.svg"
+              alt="Logo da Biblioteca"
+            />
           </div>
 
-          <div class="footer_column_content_social" id="social">
-            <h3 class="footer_column_heading">Siga-nos nas redes sociais</h3>
-            <ul class="footer_social_links">
-              <li class="footer_social_item">
-                <a href="#" class="footer_social_link" aria-label="Instagram">
-                  <img src="./images/instagram_white.svg" alt="Instagram" />
+          <div class="footer__column footer__column_content_hours">
+            <h3 class="footer__column-heading">Horário de Funcionamento</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">Dias úteis: 9h-20h</li>
+              <li class="footer__list-item">Finais de semana: 10h às 18h</li>
+            </ul>
+          </div>
+
+          <div class="footer__column footer__column_content_social">
+            <h3 class="footer__column-heading">Siga-nos nas redes sociais</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link" aria-label="Instagram">
+                  <img
+                    class="footer__social-icon"
+                    src="./images/instagram_white.svg"
+                    alt="Instagram"
+                  />Instagram
                 </a>
               </li>
 
-              <li class="footer_social_item">
-                <a href="#" class="footer_social_link" aria-label="Facebook">
-                  <img src="./images/facebook_white.svg" alt="Facebook" />
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link" aria-label="Facebook">
+                  <img
+                    class="footer__social-icon"
+                    src="./images/facebook_white.svg"
+                    alt="Facebook"
+                  />feacebook
                 </a>
               </li>
             </ul>
           </div>
         </div>
-        <p class="footer__text">&copy; 2024 Pablo Jhony Lourenço de Assis.</p>
+        <p class="footer__copyright">
+          &copy; 2024 Pablo Jhony Lourenço de Assis.
+        </p>
       </footer>
     </div>
   </body>
